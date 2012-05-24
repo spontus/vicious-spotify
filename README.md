@@ -20,3 +20,7 @@ Put this in your rc.lua
         end
     end, 2)
 
+Don't forget to add the widget to a wibox
+
+    right_layout:add(spotifywidget)
+
